@@ -1,44 +1,27 @@
-// const Mybutton = (props)=>{
-//   console.log(props.title);
-//   return (
-//     <div> 
-//     <h2>{props.title}</h2>
-//     <button>hello</button>
-//     </div>
 
-//   );
-// }
-// function App() {
+import Mybutton from "./components/mybutton"
+import Title from "./components/title"
+import Decbutton from "./components/dec"
 
-//   return ( 
-//   <div>
-//     <Mybutton title = "send" />
-//   </div>
-//   )
-// }
 
-const Mybutton = (parameters)=>{
-console.log(parameters.title);
-  return (
-    <div> 
-    <h5>{parameters.title}</h5>
-    <button>{parameters.text}</button>
-    </div>
-
-  );
-}
 function App() {
 
-  return ( 
+
+  return (
   <div>
-    <Mybutton title="1" text="use me"/>
-    <Mybutton title="2" text="use"/>
+  <Title heading="MY first react app"/>
+
+ {/* <h1 style={{
+  color:"red",
+  padding: "0px 30px" ,
+ }}>number is-{count[0]}</h1> */}
+
+    <Mybutton text="click to increase"/>
+    <Decbutton text="click to decrease"/>
+
   </div>
   )
 }
 
 
 export default App
-
-
-// export default App

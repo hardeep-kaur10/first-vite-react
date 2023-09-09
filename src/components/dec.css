@@ -1,0 +1,14 @@
+.decbutton{
+    background-color: rgb(241, 77, 32);
+    border: none;
+    color: white;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 50px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
